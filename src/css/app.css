@@ -1,1 +1,61 @@
 /* app global css */
+
+.old-style {
+  background-color: #c0c0c0;
+  font-family: 'Courier New', monospace;
+  color: #000000;
+  padding: 20px;
+}
+
+.old-style h1 {
+  color: #000080;
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.old-style h2 {
+  color: #000080;
+  text-align: center;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.old-style .q-select {
+  background-color: #ffffff;
+  border: 2px inset #c0c0c0;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  width: 200px;
+  margin: 0 auto;
+}
+
+.old-style .q-select .q-field__control {
+  border: none;
+}
+
+.old-style .q-btn {
+  background-color: #c0c0c0;
+  border: 2px outset #c0c0c0;
+  font-family: 'Courier New', monospace;
+  font-size: 16px;
+  padding: 5px 10px;
+  margin: 10px auto;
+  cursor: pointer;
+  color: #000000;
+}
+
+.old-style .q-btn:disabled {
+  background-color: #a0a0a0;
+  cursor: not-allowed;
+}
+
+.old-style .q-btn:active {
+  border: 2px inset #c0c0c0;
+}
+
+.old-style p {
+  text-align: center;
+  font-size: 18px;
+  margin-top: 20px;
+}
